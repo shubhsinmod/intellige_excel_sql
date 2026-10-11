@@ -58,3 +58,12 @@ dist/
 .DS_Store
 Thumbs.db
 Desktop.ini
+# Local database and data exports
+*.db
+*.sqlite3
+*.bak
+
+# Excel and CSV files (if they contain uploaded or sensitive data)
+*.xlsx
+*.xls
+*.csv
