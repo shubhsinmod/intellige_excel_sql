@@ -1,0 +1,40 @@
+{
+  "bopos_leons.order.order_type": {},
+  "order.order_type": {},
+  "bopos_leons.customer.location": {
+    "Namaste": "14th Avenue, Chetpet, Chennai"
+  },
+  "customer.location": {
+    "Namaste": "14th Avenue, Chetpet, Chennai"
+  },
+  "bopos_leons.bills.settlement_type": {
+    "Online": ", Zomato, Online",
+    "Cash": ", Cash"
+  },
+  "bills.settlement_type": {
+    "Online": ", Zomato, Online",
+    "Cash": ", Cash"
+  },
+  "bopos_leons.bills.order_type": {
+    "Delivery(Parcel)": "Home Delivery",
+    "Pick Up": "TakeAway"
+  },
+  "bills.order_type": {
+    "Delivery(Parcel)": "Home Delivery",
+    "Pick Up": "TakeAway"
+  },
+  "bopos_leons.order.order_status": {
+    "Success": "Success",
+    "Cancelled": "Cancelled"
+  },
+  "order.order_status": {
+    "Success": "Success",
+    "Cancelled": "Cancelled"
+  },
+  "bopos_leons.order.service_charge_total": {
+    "0": "0.0000"
+  },
+  "order.service_charge_total": {
+    "0": "0.0000"
+  }
+}

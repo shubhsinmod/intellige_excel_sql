@@ -1,0 +1,306 @@
+[
+  {
+    "id": "customer_name",
+    "name": "Customer name",
+    "description": "Full name or display name of the customer/client",
+    "synonyms": [
+      "customer_name",
+      "client_name",
+      "guest_name",
+      "custname",
+      "customer",
+      "client",
+      "guest",
+      "cust_name",
+      "party_name"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "customer_phone",
+    "name": "Customer phone",
+    "description": "Phone or mobile contact number for the customer",
+    "synonyms": [
+      "customer_phone",
+      "phone_number",
+      "mobile",
+      "contact_no",
+      "phone",
+      "contact_number",
+      "mobile_number",
+      "telephone",
+      "cell",
+      "phoneno",
+      "mobileno",
+      "contact_phone",
+      "contact phone"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "customer_address",
+    "name": "Customer address",
+    "description": "Delivery, billing, or residential address of customer",
+    "synonyms": [
+      "customer_address",
+      "billing_address",
+      "delivery_address",
+      "cust_address",
+      "shipping_address",
+      "street_address"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "outlet_name",
+    "name": "Outlet name",
+    "description": "Outlet, restaurant, brand or store business name",
+    "synonyms": [
+      "outlet_name",
+      "restaurant_name",
+      "virtual_brand_name",
+      "outlet",
+      "restaurant",
+      "store_name",
+      "branch_name",
+      "outletname",
+      "restaurantname",
+      "virtual_brand",
+      "brand_name"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "location",
+    "name": "Location",
+    "description": "Physical area, locality, city, or geographical location",
+    "synonyms": [
+      "location",
+      "outlet_location",
+      "branch_location",
+      "restaurant_location",
+      "store_location",
+      "city",
+      "region",
+      "locality"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "invoice_number",
+    "name": "Invoice number",
+    "description": "Invoice, bill, or receipt transaction identifier",
+    "synonyms": [
+      "invoice_no",
+      "invoice_number",
+      "bill_no",
+      "receipt_no",
+      "bill_number",
+      "billno",
+      "receipt_number",
+      "txn_no",
+      "transaction_no",
+      "invoiceno"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "order_date",
+    "name": "Order date",
+    "description": "Date or timestamp of the order or transaction",
+    "synonyms": [
+      "order_date",
+      "invoice_date",
+      "transaction_date",
+      "order_date_time",
+      "bill_date",
+      "order_datetime",
+      "txn_date",
+      "date"
+    ],
+    "expected_type": "DATETIME",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "item_name",
+    "name": "Item name",
+    "description": "Name or description of line item, dish, or product",
+    "synonyms": [
+      "item_name",
+      "product_name",
+      "dish_name",
+      "menu_item",
+      "description",
+      "item_description",
+      "product_description",
+      "article_name",
+      "item"
+    ],
+    "expected_type": "TEXT",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "quantity",
+    "name": "Quantity",
+    "description": "Quantity or unit count of items sold",
+    "synonyms": [
+      "quantity",
+      "qty",
+      "item_quantity",
+      "units",
+      "pieces",
+      "pcs",
+      "count"
+    ],
+    "expected_type": "INTEGER",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "item_price",
+    "name": "Item price",
+    "description": "Unit rate or selling price of individual line item",
+    "synonyms": [
+      "item_price",
+      "unit_price",
+      "rate",
+      "price",
+      "unit_rate",
+      "mrp",
+      "item_rate"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "item_total",
+    "name": "Item total",
+    "description": "Total monetary amount for line item (quantity * price)",
+    "synonyms": [
+      "item_total",
+      "line_total",
+      "extended_price",
+      "item_amount",
+      "line_amount",
+      "row_total"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "total_amount",
+    "name": "Total amount",
+    "description": "Total net/gross transaction amount for bill or order",
+    "synonyms": [
+      "total_amount",
+      "grand_total",
+      "invoice_total",
+      "bill_amount",
+      "final_amount",
+      "order_total",
+      "total",
+      "net_amount",
+      "gross_amount",
+      "my_amount"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "discount",
+    "name": "Discount",
+    "description": "Total monetary discount or rebate amount",
+    "synonyms": [
+      "discount",
+      "discount_amount",
+      "discount_value",
+      "disc",
+      "rebate",
+      "discount_total"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "tax_amount",
+    "name": "Tax amount",
+    "description": "Total monetary tax or VAT amount",
+    "synonyms": [
+      "tax_amount",
+      "total_tax",
+      "vat_amount",
+      "vat_total",
+      "gst_amount",
+      "tax_total",
+      "tax"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "tax_percentage",
+    "name": "Tax percentage",
+    "description": "Percentage rate for VAT or sales tax (e.g. 5%, 18%)",
+    "synonyms": [
+      "tax_percentage",
+      "vat_percentage",
+      "tax_rate",
+      "vat_rate",
+      "gst_rate",
+      "tax_percent",
+      "vat_percent",
+      "vat_pct"
+    ],
+    "expected_type": "PERCENTAGE",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "delivery_charge",
+    "name": "Delivery charge",
+    "description": "Ancillary delivery or shipping charge fee",
+    "synonyms": [
+      "delivery_charge",
+      "shipping_charge",
+      "delivery_fee",
+      "shipping_fee",
+      "delivery_charges"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  },
+  {
+    "id": "service_charge",
+    "name": "Service charge",
+    "description": "Restaurant or hospitality service charge fee",
+    "synonyms": [
+      "service_charge",
+      "service_fee",
+      "service_charge_total",
+      "service_charges"
+    ],
+    "expected_type": "DECIMAL",
+    "database_scope": null,
+    "is_builtin": true
+  }
+]

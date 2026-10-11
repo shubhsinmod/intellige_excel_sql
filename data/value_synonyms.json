@@ -1,0 +1,79 @@
+{
+  "Order Type": {
+    "Dine In": [
+      "Dinning",
+      "Dining",
+      "Dine In",
+      "Dine-In",
+      "DineIn",
+      "Eat In",
+      "Table"
+    ],
+    "Take Away": [
+      "TakeAway",
+      "Take Away",
+      "Take-Away",
+      "take_away",
+      "Takeout",
+      "Take Out",
+      "Carry Out",
+      "Pick Up",
+      "Pickup"
+    ],
+    "Home Delivery": [
+      "HomeDelivery",
+      "Home Delivery",
+      "Home-Delivery",
+      "home_delivery",
+      "Door Delivery",
+      "Delivery"
+    ],
+    "Parcel": [
+      "Parcel",
+      "Packing",
+      "Package"
+    ]
+  },
+  "Payment Mode": {
+    "Cash": [
+      "cash",
+      "cod",
+      "cash on delivery"
+    ],
+    "Credit Card": [
+      "card",
+      "credit card",
+      "cc",
+      "debit card"
+    ],
+    "UPI": [
+      "upi",
+      "gpay",
+      "phonepe",
+      "paytm",
+      "online"
+    ]
+  },
+  "Order Status": {
+    "Completed": [
+      "completed",
+      "done",
+      "delivered",
+      "closed",
+      "settled"
+    ],
+    "Cancelled": [
+      "cancelled",
+      "canceled",
+      "void",
+      "rejected"
+    ],
+    "Pending": [
+      "pending",
+      "new",
+      "in progress",
+      "processing",
+      "open"
+    ]
+  }
+}
